@@ -1,0 +1,916 @@
+/* Google open sens and raleway font link up */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+/* ********************
+******** Global CSS   ******* 
+************************/
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box ;
+}
+
+body{
+    /* font-family: "Raleway", sans-serif;
+    font-family: "Open Sans", sans-serif; */
+    text-align: center;
+}
+ul{
+    margin: 0;
+    padding: 0;
+}
+
+
+a, a:hover{
+    text-decoration: none;
+}
+
+/* now start our normal project css */
+
+/* header section css start here */
+.header-section{
+    width: 100%;
+    padding: 8px 0px;
+    background-color: #000000;
+}
+.header-section .navbar-nav .nav-item .nav-link{
+    font-family: "Open Sans", sans-serif;
+    color: #b0b0b0;
+    font-size: 16px;
+    font-weight: 500;
+    margin-left: 20px;
+} 
+
+/* header section css end here */
+
+/* Banner section css start here */
+.banner-section{
+    width: 100%;
+    background: url(img/banner.png) center center no-repeat;
+    background-size: cover;
+    padding: 100px 0px 130px;
+    text-align: left;
+}
+.banner-section .inner-banner h1{
+    font-size: 36px;
+    line-height: 46px;
+    font-family: "Raleway", sans-serif;
+    color: rgb(255, 255, 255);
+    padding-top: 23px;
+    padding-bottom: 20px;
+    padding-right: 85px;
+}
+  
+.banner-section .inner-banner .line{
+    background-color: white;
+    height: 3px;
+    width: 13%;
+    transition: 0.7s;
+}
+
+.banner-section .inner-banner:hover .line{
+    width: 23%;
+    transition: 0.7s;
+}
+
+.banner-section .inner-banner p{
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 300;
+    font-family: "Raleway", sans-serif;
+    color: rgba(255, 255, 255, 0.8);
+    padding: 35px 110px 22px 0px;
+
+}
+.banner-section .inner-banner .btns a{
+    padding: 1.5% 4.3%;
+    font-family: "Open Sans", sans-serif;
+    border: 1px solid white;
+    color: white;
+    font-size: 16px;
+    font-weight: 500;
+    border-radius: 0;
+    transition: 0.7s;
+}
+.banner-section .inner-banner .btns a:hover{
+    background-color: #fe9244;   
+    border: 1px solid #fe9244;
+    transition: 0.7s;
+
+}
+.banner-section .inner-form{
+    margin-top: 30px;
+}
+.banner-section .inner-form .card{
+    margin: 0px 0px 0px 44%;
+    /* --bs-card-border-radius: 5px 5px 0px 0px; */
+    border: none;
+}
+.banner-section .inner-form .card .card-header h2{
+    font-family: "Open Sans", sans-serif;
+    background-color: #f5f5f5;
+    text-align: center;
+    color: rgb(51, 51, 51);
+    font-size: 20px;
+    font-weight: 700;
+    padding: 0px 20px;
+
+}
+
+.banner-section .inner-form .card .card-header span{
+    color: #fe9244;
+}
+.banner-section .inner-form .card  .card-body {
+    text-align: center;
+}
+.banner-section .inner-form .card  .card-body .form-details{
+    margin-bottom: 30px;
+}
+.banner-section .inner-form .card  .card-body .form-details .inside{
+    padding: 2% 15% 2% 3%;
+    font-family: "Open Sans", sans-serif;
+    font-size: 16px;
+    line-height: 24px;
+    color: rgb(189, 189, 189);
+    border: none;
+    border-bottom: 1px solid rgb(189, 189, 189);
+
+}
+.banner-section .inner-form .card .card-footer{
+    background: #ff8b38;
+    text-align: center;
+
+}
+.banner-section .inner-form .card .card-footer a{
+    font-family: "Open Sans", sans-serif;
+    font-size: 15px;
+    font-weight: 500;
+    padding: 4% 38%;
+    color: white;
+    background-color: transparent;
+    
+   
+}
+/* .banner-section .inner-form .btns{
+    text-align: right;
+}
+.banner-section .inner-form .btns a {
+    font-family: "Open Sans", sans-serif;
+    font-size: 15px;
+    font-weight: 500;
+    color: white;
+    padding: 2% 21.48%;
+    background-color: #fe9244;
+    border: 1px solid #fe9244;
+    border-radius: 0px 0px 5px 5px;
+    transition: 0.7s;
+}
+.banner-section .inner-form .btns a:hover {
+    background: transparent;
+    transition: 0.7s;
+    
+} */
+/* Banner section css end here */
+
+/* Social media section css start here */
+.social{
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0px 1px 3px 0px rgba(0, 0, 0, 0.38);
+    padding: 20px 0px 5px;
+}
+.social .social-details h4{
+    font-family: "Open Sans", sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    color: rgb(51, 51, 51);
+    text-align: left;
+}
+.social .social-details p{
+    font-family: "Open Sans", sans-serif;
+    font-size: 16px;
+    line-height: 26px;
+    color: rgb(134, 135, 139);
+    text-align: left;
+    margin-top: -5px;
+}
+.social .social-icon a{
+    font-size: 48px;
+    line-height: 58px;
+    color: rgb(204, 204, 204);
+    padding: 0px 3.8%;
+}
+
+
+/* Social media section css end here */
+
+/* tab section css start here */
+.tab-section{
+    width: 100%;
+    padding: 135px 0px 90px;
+    background-color: #f5f5f5;
+}
+.tab-section .inner-tab{
+    display: flex;
+}
+.tab-section .inner-tab .tabs{
+    height: 100%;
+    width: 197px;
+}
+.tab-section .inner-tab .tabs .tab{
+    font-family: "Open Sans", sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    width: 100%;
+    text-align: center;
+    padding: 40px 0;
+    color: white;
+    background: #333333;
+    border: 0.5px solid #f5f5f5;
+    cursor: pointer;
+}
+
+  
+.tab-section .inner-tab .tabs .tab.active{
+    background-color: #ff8b38;
+    border: 0.5px solid #f5f5f5;
+    color: white;
+}
+.tab-section .inner-tab .tabs .tab:first-child{
+    border-radius: 3px 3px 0px 0px;
+}
+.tab-section .inner-tab .tabs .tab:last-child{
+     border-radius: 0px 0px 3px 3px;
+}
+.tab-section .inner-tab .contents{
+    width: calc(100%-197px);
+}
+.tab-section .inner-tab .contents .tab-content{
+   padding: 30px;
+   display: none;
+    
+}
+.tab-section .inner-tab .contents .tab-content.show{
+   display: block;
+   padding: 8px 0px 0px 95px;
+     
+ }
+ .tab-section .inner-tab .contents .tab-content h3{
+    font-family: "Open Sans", sans-serif;
+    font-size: 20px;
+    line-height: 24px;
+    font-weight: 700;
+    color: rgb(0, 0, 0);
+    text-align: left;
+    padding-bottom: 36px;
+
+ }
+ .tab-section .inner-tab .contents .tab-content p{
+    font-family: "Open Sans", sans-serif;
+    font-size: 16px;
+    line-height: 26px;
+    color: rgb(134, 135, 139);
+    text-align: left;
+    padding-right: 10%;
+
+ }
+
+ .tab-section .inner-tab .contents .tab-content .last{
+    margin-top: -3px;
+    margin-bottom: 40px;
+ }
+ .tab-section .inner-tab .contents .tab-content .btns{
+    text-align: left;
+ }
+ .tab-section .inner-tab .contents .tab-content .btns a{
+    padding: 1.5% 3%;
+    font-family: "Open Sans", sans-serif;
+    background-color: #fe9244;
+    border: 1px solid #fe9244;
+    color: white;
+    font-size: 16px;
+    font-weight: 500;
+    border-radius: 3px;
+    transition: 0.8s;
+}
+.tab-section .inner-tab .contents .tab-content .btns a:hover{
+    background-color: #333333;   
+    border: 1px solid #333333;
+    transition: 0.8s;
+
+}
+.tab-section .inner-tab .contents .tab-content .inner-img{
+    text-align: right;
+}
+
+/* tab section css end here */
+
+/* sub list section css start here */
+.sub-list-section{
+    width: 100%;
+    padding: 95px 0px 70px;
+    background-color: #ffffff;
+    text-align: left;
+}
+
+.sub-list-section .sub-img{
+    margin: 3% -2%;
+}
+
+.sub-list-section .sub-details .inner-sub h4{
+    font-family: "Open Sans", sans-serif;
+    font-size: 20px;
+    line-height: 28px;
+    font-weight: 700;
+    color: rgb(33, 33, 33);
+}
+
+.sub-list-section .sub-details .inner-sub .line{
+    background-color: #ff8b38;
+    height: 3px;
+    width: 10%;
+    transition: 0.7s;
+    margin: 20px 0px;
+}
+
+.sub-list-section .sub-details:hover .inner-sub .line{
+    width: 20%;
+    transition: 0.7s;
+}
+
+.sub-list-section .sub-details .inner-sub p{
+    font-family: "Open Sans", sans-serif;
+    font-size: 16px;
+    line-height: 24px;
+    color: rgb(134, 135, 139);
+    padding-right: 20%;
+}
+
+.sub-list-section .sub-details .upload{
+    display: flex;
+    padding-top: 20px;
+    cursor: pointer;
+}
+.sub-list-section .sub-details .upload .left img{
+    border: 2px solid rgb(255, 139, 56);
+    font-size: 16px;
+    border-radius: 50%;
+    padding: 9px;
+}
+.sub-list-section .sub-details .upload .right{
+    padding-left: 5%;
+    padding-bottom: 2%;
+}
+.sub-list-section .sub-details .upload .right h5{
+    font-family: "Open Sans", sans-serif;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 600;
+    color: rgb(33, 33, 33);
+    margin-bottom: 4px;
+}
+  
+.sub-list-section .sub-details .upload .right p{
+    font-family: "Open Sans", sans-serif;
+    font-size: 16px;
+    line-height: 20px;
+    color: rgb(134, 135, 139);
+    padding-right: 20%;
+}
+.sub-list-section .sub-details .download{
+    display: flex;
+    cursor: pointer;
+}
+.sub-list-section .sub-details .download .left img{
+    border: 2px solid rgb(255, 139, 56);
+    font-size: 16px;
+    border-radius: 50%;
+    padding: 9px;
+}
+.sub-list-section .sub-details .download .right{
+    padding-left: 5%;
+}
+.sub-list-section .sub-details .download .right h5{
+    font-family: "Open Sans", sans-serif;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 600;
+    color: rgb(33, 33, 33);
+    margin-bottom: 4px;
+}
+  
+.sub-list-section .sub-details .download .right p{
+    font-family: "Open Sans", sans-serif;
+    font-size: 16px;
+    line-height: 20px;
+    color: rgb(134, 135, 139);
+    padding-right: 25%;
+}
+  
+  
+/* sub list section css end here */
+
+/* standard-pic section css start here */
+.standard-pic{
+    width: 100%;
+    padding: 70px 0px;
+    background-color: #f5f5f5;
+}
+.standard-pic .inner-details{
+    text-align: left;
+    padding-top: 20px;
+}
+.standard-pic .inner-details h4{
+    font-family: "Open Sans", sans-serif;
+    font-size: 20px;
+    line-height: 28px;
+    font-weight: 700;
+    color: rgb(33, 33, 33);
+}
+
+.standard-pic .inner-details .line{
+    background-color: #ff8b38;
+    height: 3px;
+    width: 11%;
+    transition: 0.7s;
+    margin: 20px 0px;
+}
+
+.standard-pic .inner-details:hover .line{
+    width: 21%;
+    transition: 0.7s;
+}
+
+.standard-pic .inner-details p{
+    font-family: "Open Sans", sans-serif;
+    font-size: 16px;
+    line-height: 20px;
+    color: rgb(134, 135, 139);
+    padding-right: 15%;
+
+}
+.standard-pic .inner-details .last{
+    padding-right: 13%;
+}
+.standard-pic .inner-pic{
+    text-align: right;
+}
+  
+/* standard-pic section css end here */
+
+/* quality section css start here */
+.quality{
+    width: 100%;
+    padding: 92px 0px;
+    background: #ffffff;
+}
+
+.quality .inner-details h4{
+    font-family: "Raleway", sans-serif;
+    font-size: 36px;
+    line-height: 46px;
+    color: rgb(33, 33, 33);
+    position: relative;
+
+}
+.quality .inner-details h4::after{
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 3px;
+    background-color: #ff8b38;
+    transform: scale(8%, 100%);
+    left: 0;
+    bottom: -20px;
+    transition: 0.8s;
+}
+
+.quality:hover .inner-details h4::after{
+    transform: scale(15%, 100%);
+    transition: 0.8s;
+}
+
+.quality .inner-details p{
+    font-family: "Open Sans", sans-serif;
+    font-size: 16px;
+    line-height: 20px;
+    color: rgb(134, 135, 139);
+    padding-top: 34px;
+}
+.quality .inner-quality{
+    padding-top: 60px;
+}
+
+.quality .inner-quality i{
+    font-size: 32px;
+    color: rgb(255, 139, 56);
+    border: 2px solid rgb(255, 139, 56);
+    border-radius: 50%;
+    padding: 3%;
+
+}
+.quality .inner-quality .p-custom{
+    padding: 3% 5%;
+}
+.quality .inner-quality h5{
+    font-family: "Open Sans", sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 28px;
+    color: rgb(51, 51, 51);
+    padding-top: 24px;
+    padding-bottom: 12px;
+}
+
+.quality .inner-quality p{
+    font-family: "Open Sans", sans-serif;
+    font-size: 16px;
+    line-height: 22px;
+    color: rgb(134, 135, 139);
+    padding-right: 1%;
+}
+
+/* quality section css end here */
+
+/* pricing section css start here */
+.pricing-section{
+    width: 100%;
+    padding: 80px 0px 80px;
+    background: #f5f5f5;
+    
+}
+.pricing-section .inner-details h4{
+    font-family: "Raleway", sans-serif;
+    font-size: 36px;
+    line-height: 46px;
+    color: rgb(33, 33, 33);
+    position: relative;
+
+}  
+.pricing-section .inner-details h4::after{
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 3px;
+    background-color: #ff8b38;
+    transform: scale(5%, 100%);
+    left: 0;
+    bottom: -20px;
+    transition: 0.8s;
+}
+.pricing-section:hover .inner-details h4::after{
+    transform: scale(10%, 100%);
+    transition: 0.8s;
+}
+.pricing-section .inner-details p{
+    font-family: "Open Sans", sans-serif;
+    font-size: 16px;
+    line-height: 20px;
+    color: rgb(134, 135, 139);
+    padding-top: 34px;
+    padding-bottom: 58px;
+}
+.pricing-section .card{
+    margin-right: 10px;
+    border-radius: 0px !important;
+}
+.card-header:first-child {
+    border-radius: 0px !important; 
+}
+.pricing-section .card .card-header{
+    background: #333333 !important;
+    border-bottom: var(--bs-card-border-width) solid white;
+    
+    
+}
+.pricing-section .card .card-header h3{
+    font-family: "Open Sans", sans-serif;
+    font-size: 20px;
+    color: white;
+    font-weight: 700;
+    line-height: 28px;
+    padding: 2px 0px;
+
+    
+
+}
+.pricing-section .card .card-body{
+    background: #333333 !important;
+    padding-bottom: 0px;
+    
+}
+.pricing-section .card .card-body h2{
+    font-family: "Raleway", sans-serif;
+    font-size: 94px;
+    font-weight: 700;
+    line-height: 55px;
+    color: rgb(255, 255, 255);
+    padding-bottom: 5px;
+}
+.pricing-section .card .card-body sub{
+    font-family: "Raleway", sans-serif;
+    font-size: 35px;
+    line-height: 55px;
+    font-size: 700;
+    color: rgb(255, 255, 255);
+}
+.pricing-section .card .card-body p{
+    font-family: "Raleway", sans-serif;
+    font-size: 16px;
+    line-height: 24px;
+    color: rgba(255, 255, 255, 0.502);
+    font-style: italic;
+
+}
+.pricing-section .card .card-body .extra p{
+    font-family: "Raleway", sans-serif;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 700;
+    color: white;
+}
+.pricing-section .card .card-footer{
+    padding: none !important;
+}
+.pricing-section .card .card-footer p{
+    border-bottom: var(--bs-card-border-width) solid var(--bs-card-border-color);
+    padding-bottom: 10px;
+    font-family: "Open Sans", sans-serif;
+    color: rgb(134, 135, 139);
+    font-size: 16px;
+    text-transform: uppercase;
+}
+.card-footer {
+    padding: 0px !important;
+    border-top: none !important;
+}
+.pricing-section .card .card-footer .line{
+    background-color: #ff8b38;
+    padding: 3px 0px;
+}
+.pricing-section .card .card-footer .extra{
+    background-color: #ff8b38;
+    padding: 8px 0px;
+    font-size: 14px;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 700;
+    color: white;
+
+}
+.pricing-section .card .card-footer .last{
+    border-bottom: none;
+    padding-bottom: 0px;
+ 
+}
+/* pricing section css end here */
+
+/* testimonial section css start here */
+.testimonial-section{
+    width: 100%;
+    padding: 90px 0px;
+}
+.testimonial-section .inner-details h4{
+    font-family: "Raleway", sans-serif;
+    font-size: 36px;
+    line-height: 46px;
+    color: rgb(33, 33, 33);
+    position: relative;
+
+}  
+.testimonial-section .inner-details h4::after{
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 3px;
+    background-color: #ff8b38;
+    transform: scale(5%, 100%);
+    left: 0;
+    bottom: -20px;
+    transition: 0.8s;
+}
+.testimonial-section:hover .inner-details h4::after{
+    transform: scale(10%, 100%);
+    transition: 0.8s;
+}
+.testimonial-section .inner-details p{
+    font-family: "Open Sans", sans-serif;
+    font-size: 16px;
+    line-height: 20px;
+    color: rgb(134, 135, 139);
+    padding-top: 34px;
+    padding-bottom: 38px;
+}
+.testimonial-section .inner-comment{
+    text-align: left;
+}
+
+.testimonial-section .inner-comment .details{
+    font-family: "Open Sans", sans-serif;
+    font-size: 16px;
+    line-height: 20px;
+    color: rgb(134, 135, 139);
+    width: 74%;
+    background-color: #f5f5f5;
+    border: 1px solid #f5f5f5;
+    border-radius: 5px;
+    padding: 20px 0px 20px 10px;
+    position: relative;
+}
+.testimonial-section .inner-comment .details::after {
+    content: '';
+    position: absolute;
+    left: 25px;
+    bottom: -30px;
+    border: 15px solid #f5f5f5;
+    border-color: transparent;
+    border-top-color: #f5f5f5;
+}
+
+.testimonial-section .inner-comment .info{
+    display: flex;
+    padding-top: 8px;
+    padding-left: 5px;
+}
+
+.testimonial-section .inner-comment .info .right{
+    padding-left: 15px;
+}
+.testimonial-section .inner-comment .info .right h5{
+    font-family: "Open Sans", sans-serif;
+    font-size: 20px;
+    line-height: 24px;
+    font-weight: 700;
+    color: rgb(51, 51, 51);
+}
+.testimonial-section .inner-comment .info .right p{
+    font-family: "Open Sans", sans-serif;
+    font-size: 16px;
+    line-height: 24px;
+    color: rgb(134, 135, 139);
+
+}
+  
+/* testimonial section css end here */
+
+/* stylish section css start here */
+.stylish-section{
+    width: 100%;
+    padding: 80px 0px;
+    background: url(img/banner-02.png) center center no-repeat;
+    background-size: cover;
+}
+.stylish-section .inner-details h4{
+    font-family: "Raleway", sans-serif;
+    font-size: 36px;
+    line-height: 46px;
+    color: white;
+    position: relative;
+
+} 
+.stylish-section .inner-details h4::after{
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 3px;
+    background-color: white;
+    transform: scale(5%, 100%);
+    left: 0;
+    bottom: -20px;
+    transition: 0.8s;
+}
+.stylish-section:hover .inner-details h4::after{
+    transform: scale(10%, 100%);
+    transition: 0.8s;
+}
+.stylish-section .inner-details p{
+    font-family: "Raleway", sans-serif;
+    font-size: 16px;
+    line-height: 20px;
+    color: rgba(255, 255, 255, 0.8);
+    padding-top: 44px;
+    padding-bottom: 18px;
+}
+.stylish-section .inner-details .btns a{
+    padding: 0.5% 2%;
+    font-family: "Open Sans", sans-serif;
+    border: 1px solid white;
+    color: white;
+    font-size: 16px;
+    font-weight: 500;
+    border-radius: 0;
+    transition: 0.7s;
+} 
+.stylish-section .inner-details .btns a:hover{
+    background-color: #fe9244;   
+    border: 1px solid #fe9244;
+    transition: 0.7s;
+
+}
+/* stylish section css end here */
+
+/* contact section coding start here */
+.Contact-section{
+    width: 100%;
+    padding: 90px 0px 75px;
+    background: #ffffff;
+}
+.Contact-section .inner-contact h4{
+    font-family: "Raleway", sans-serif;
+    font-size: 36px;
+    line-height: 46px;
+    color: rgb(33, 33, 33);
+    position: relative;
+
+} 
+  
+.Contact-section .inner-contact h4::after{
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 3px;
+    background-color: #ff8b38;
+    transform: scale(5%, 100%);
+    left: 0;
+    bottom: -20px;
+    transition: 0.8s;
+}
+.Contact-section:hover .inner-contact h4::after{
+    transform: scale(10%, 100%);
+    transition: 0.8s;
+}
+.Contact-section .inner-contact p{
+    font-family: "Raleway", sans-serif;
+    font-size: 16px;
+    line-height: 20px;
+    color: rgb(134, 135, 139);
+    padding-top: 44px;
+    padding-bottom: 18px;
+}
+.Contact-section .form-part{
+    margin-top: 35px;
+}
+.Contact-section .form-details{
+    padding-bottom: 20px;
+}
+
+.Contact-section .form-details .inside {
+    width: 90%;
+    padding: 1.5% 1.5%;
+    border: none;
+    border-bottom: 1px solid #dedede;
+    color: rgb(189, 189, 189);
+    font-family: "Open Sans", sans-serif;
+    font-size: 16px;
+}
+.Contact-section .text-details .text {
+    width: 90%;
+    padding: 1.5% 1.5% 17.5%;
+    border: none;
+    border-bottom: 1px solid #dedede;
+    color: rgb(189, 189, 189);
+    font-family: "Open Sans", sans-serif;
+    font-size: 16px;
+}
+.Contact-section .btns{
+    text-align: center;
+    padding-top: 20px;
+}
+.Contact-section .btns a {
+    font-family: "Open Sans", sans-serif;
+    font-size: 15px;
+    font-weight: 500;
+    color: white;
+    padding: 0.7% 1.3%;
+    background-color: #fe9244;
+    border: 1px solid #fe9244;
+    border-radius: 3px;
+    transition: 0.7s;
+}
+.Contact-section .btns a:hover {
+    background: transparent;
+    color: #fe9244;
+    transition: 0.7s;
+    
+}
+/* contact section coding end here */
+
+/* footer section css start here */
+.footer-section{
+    width: 100%;
+    background: #000000;
+    padding: 17px 0px 0px;
+}
+.footer-section .inner-footer .icon a{
+    font-size: 24px;
+    line-height: 30px;
+    color: rgb(204, 204, 204);
+    padding: 0px 1.2%;
+}
+.footer-section .inner-footer p{
+    font-family: "Open Sans", sans-serif;
+    font-size: 14px;
+    color: rgba(255, 255, 255, 0.502);
+    padding-top: 12px;
+}
+
+/* footer section css end here */
